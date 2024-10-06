@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 app.use(cors({origin:"*"}))
 
-mongoose.connect('mongodb+srv://paramjeetrtr:rtzcJBGJqtY0GFi0@cluster0.wtgnyxg.mongodb.net/Primary?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('', {
     useNewUrlParser: true,
     useUnifiedTopology:true
 })
